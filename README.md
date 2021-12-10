@@ -1,7 +1,7 @@
 # Controllable Vehicles
 ## Introduction
-This project is a third person Sample Project for Unreal Engine 5.
-This is not production-ready code but a starting point for implemeting controllable vehicle.
+This project is a third-person sample project developed in Unreal Engine 5.
+This is a starting point for implementing controllable vehicles.
 If you have any questions or suggestions about this project, talk to me on [LinkedIn](https://www.linkedin.com/in/danialkamali/).
 You can also access the project launcher and pictures of the project [here](https://mega.nz/folder/3aZgQZiK#Y3jcR_cYnAJhDfhYC-amNw).
 
