@@ -15,4 +15,4 @@ The assets included are listed below, and some of them were made by myself.
 - [AH-64D Apache Longbow (West)](https://www.unrealengine.com/marketplace/en-US/product/ah-64d-apache-longbow-us)
 - [Fighter F/A-18C Hornet (West)](https://www.unrealengine.com/marketplace/en-US/product/fighter-f-a-18c-hornet)
 - Some free 3D models from [cgtrader](https://www.cgtrader.com/)
-- Most animations are from [Mixamo](https://www.mixamo.com/) and sounds from [Freesound](https://freesound.org/)
+- Most animations are from [Mixamo](https://www.mixamo.com/), icons from [FlatIcon](https://www.flaticon.com/), and sounds from [Freesound](https://freesound.org/)
