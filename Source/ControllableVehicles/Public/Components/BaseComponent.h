@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// All Rights Reserved.
 
 #pragma once
 
@@ -11,20 +11,15 @@ class CONTROLLABLEVEHICLES_API UBaseComponent : public UActorComponent
 {
 	GENERATED_BODY()
 
-public:	
-	// Sets default values for this component's properties
+public:
 	UBaseComponent();
 	
-	// Functions
 	UFUNCTION(BlueprintCallable, Category = "Components")
 	void Initialize();
 
 protected:
-	// Functions
-	UFUNCTION(BlueprintCallable, Category = "Components")
 	virtual void SetupComponent();
 	
-	// Variables
-	UPROPERTY(BlueprintReadOnly, Category = "Defaults")
+	UPROPERTY()
 	AActor* Owner;
 };
