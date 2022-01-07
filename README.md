@@ -8,7 +8,7 @@ You can also access the project launcher and pictures of the project [here](http
 ## Concepts covered
 - Controllable Pawns (helicopter, jet, and chaos vehicle)
 - Interact System
-- Health system, including reducing health based on damage type like point damage (bullet), radial damage (explosion), and health recovery
+- Health component
 - fall damage with getup animation based on mesh orientation
 
 The assets included are listed below, and some of them were made by myself.
