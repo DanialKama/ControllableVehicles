@@ -23,7 +23,6 @@ class CONTROLLABLEVEHICLES_API ICharacterAnimationInterface
 
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
-	// Without Output
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "CharacterAnimationInterface", meta = (ToolTip = "True when character is dead and mesh is not moving anymore"))
 	void SetCompletelyStopMoving(bool bCompletelyStop);
 
