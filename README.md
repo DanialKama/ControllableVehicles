@@ -2,8 +2,8 @@
 ## Introduction
 This project is a third-person sample project developed in Unreal Engine 5.
 This is a starting point for implementing controllable vehicles.
-If you have any questions or suggestions about this project, talk to me on [LinkedIn](https://www.linkedin.com/in/danialkamali/).
-You can also access the project launcher and pictures of the project [here](https://mega.nz/folder/3aZgQZiK#Y3jcR_cYnAJhDfhYC-amNw).
+[DM](https://discord.com/users/810853382193545227) me if you have any questions or suggestions.
+You can also access the project demo and pictures [here](https://mega.nz/folder/3aZgQZiK#Y3jcR_cYnAJhDfhYC-amNw).
 
 ## Concepts covered
 - Controllable Pawns (helicopter, jet, and chaos vehicle)
