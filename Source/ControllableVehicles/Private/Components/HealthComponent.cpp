@@ -1,13 +1,12 @@
 // Copyright 2022 Danial Kamali. All Rights Reserved.
 
 #include "Components/HealthComponent.h"
+
 #include "Interfaces/CharacterInterface.h"
 #include "Interfaces/CommonInterface.h"
 
 UHealthComponent::UHealthComponent()
 {
-	PrimaryComponentTick.bCanEverTick = false;
-
 	// Initialize variables
 	bCanRecoverHealth = true;
 }

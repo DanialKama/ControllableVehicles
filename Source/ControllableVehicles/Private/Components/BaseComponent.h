@@ -11,6 +11,7 @@ class CONTROLLABLEVEHICLES_API UBaseComponent : public UActorComponent
 {
 	GENERATED_BODY()
 
+// Functions
 public:
 	UBaseComponent();
 	
@@ -18,8 +19,9 @@ public:
 	void Initialize();
 
 protected:
-	virtual void SetupComponent();
-	
-	UPROPERTY()
-	AActor* Owner;
+	virtual void SetupComponent() {}
+
+// Variables
+protected:
+	TObjectPtr<AActor> Owner;
 };

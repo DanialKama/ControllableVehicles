@@ -11,9 +11,10 @@ class CONTROLLABLEVEHICLES_API UHealthComponent : public UBaseComponent
 {
 	GENERATED_BODY()
 
+// Functions
 public:
 	UHealthComponent();
-
+	
 	/** Only start when stamina is full */
 	UFUNCTION(BlueprintCallable, Category = "HealthComponent")
 	void StartHealthRecovery();
@@ -24,23 +25,7 @@ public:
 	
 	UFUNCTION(BlueprintCallable, Category = "HealthComponent")
 	void Healing(float HealthDifference);
-	
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Defaults")
-	uint8 bCanRecoverHealth : 1;
-	
-	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "Defaults", meta = (ClampMin = "0.0", UIMin = "0.0"))
-	float MaxHealth = 100.0f;
 
-	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "Defaults", meta = (ClampMin = "0.0", UIMin = "0.0"))
-	float DefaultHealth = 100.0f;
-	
-	UPROPERTY(BlueprintReadOnly, Category = "HealthComponent")
-	FName HitBoneName = TEXT("None");
-
-	/** Direction of the shot */
-	UPROPERTY(BlueprintReadOnly, Category = "HealthComponent")
-	FVector ShotOrigin = FVector::ZeroVector;
-	
 protected:
 	virtual void SetupComponent() override;
 
@@ -59,6 +44,25 @@ private:
 	UFUNCTION()
 	void RecoverHealth();
 
+// Variables
+public:
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Defaults")
+	uint8 bCanRecoverHealth : 1;
+	
+	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "Defaults", meta = (ClampMin = "0.0", UIMin = "0.0"))
+	float MaxHealth = 100.0f;
+
+	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "Defaults", meta = (ClampMin = "0.0", UIMin = "0.0"))
+	float DefaultHealth = 100.0f;
+	
+	UPROPERTY(BlueprintReadOnly, Category = "HealthComponent")
+	FName HitBoneName = TEXT("None");
+
+	/** Direction of the shot */
+	UPROPERTY(BlueprintReadOnly, Category = "HealthComponent")
+	FVector ShotOrigin = FVector::ZeroVector;
+	
+private:
 	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "Defaults", meta = (ToolTip = "If health goes lower than this value health component start notifying the owner", ClampMin = "0.0", UIMin = "0.0", AllowPrivateAccess = true))
 	float LowHealth = 25.0f;
 

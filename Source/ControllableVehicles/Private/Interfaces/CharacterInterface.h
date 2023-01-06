@@ -3,7 +3,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Enums/CharacterEnums.h"
 #include "UObject/Interface.h"
 #include "CharacterInterface.generated.h"
 
