@@ -8,7 +8,8 @@ public class ControllableVehiclesTarget : TargetRules
 	public ControllableVehiclesTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
+		DefaultBuildSettings = BuildSettingsVersion.Latest;
+		
 		ExtraModuleNames.AddRange( new string[] { "ControllableVehicles" } );
 	}
 }
